@@ -1,0 +1,32 @@
+npm install -g create-react-app
+create-react-app hello-world
+cd hello-world
+npm start
+
+
+/* #### PROPTYPES ####*/
+npm install prop-types
+o
+yarn add prop-types
+
+// prop-types, nos porporciona un validador para nuestros props
+
+// Lo importamos
+
+import PropTypes from 'prop-types';
+
+// y por medio del método PropTypes
+// podemos validar nuestros props
+// ejm:
+
+static PropTypes = {
+    title: PropTypes.string.isRequired,
+    items: PropTypes.array.isRequired
+}
+
+
+/* #### ROUTER ####*/
+npm install react-router-dom
+
+// react-router nos proporciona funcionalidades para trabajar
+// con nuestras rutas.

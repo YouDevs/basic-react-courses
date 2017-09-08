@@ -1,0 +1,42 @@
+______________________ CONFIGURAR PROYECTO ______________
+
+desde la consola  (Como administrador), ejecutar los sigs. comandos:
+
+inicializar el proyecto con npm:
+    *npm init --y
+
+Instala webpack:
+    * npm i --save-dev webpack
+
+Instala express:
+    * npm   i --save express
+
+Instala babel:
+    (Como administrador)
+    * npm i --save babel-core babel-loader babel-preset-react babel-preset-es2015 babel-preset-stage-1
+Instala redux:
+    * npm i --save redux
+
+______________________ CREAR FOLDERS Y ARCHIVOS ______________
+
+crear folder / archivo
+    * public
+        * index.html
+    * src
+        * app.js
+    * server.js
+    *webpack.config.js
+
+______________________ AGREGAR EL CÓDIGO CORRESPONDIENTE A server.js ______________
+
+______________________ AGREGAR EL CÓDIGO CORRESPONDIENTE A webpack.config.js ______________
+a todo esto tuve que instalar webpack de nuevo y de manera global
+* puede ser que solo me haya faltado cerrar y abrir de nuevo las consolas.
+
+para que todo vaya bien necesita estar en ejecución
+el server.js
+y el webpack con el comando:
+    *webpack en la consola.
+
+______________________ First Reduz Application ______________
+    Escribir el código en el archivo app.js
